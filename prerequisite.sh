@@ -35,6 +35,7 @@ curl -o awscliv2.zip \
 https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip
 
 unzip -o awscliv2.zip
+sudo ./aws/install
 
 if command -v aws >/dev/null 2>&1; then
     echo "AWS CLI already installed. Updating..."
